@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.author           = { "Marin Todorov" => "marin@underplot.com" }
   s.source           = { :git => "https://github.com/RxSwiftCommunity/RxRealm.git", :tag => s.version.to_s }
 
-  s.requires_arc = true
+  s.requires_arc = false
 
   s.ios.deployment_target = '9.0'
   s.osx.deployment_target = '10.10'
